@@ -97,8 +97,8 @@ header .navbar {
   font-weight: var(--font-weight-semibold);
 }
 .navbar .nav-logo .logo-text .logo-img{
-  width:120px;
-  height:80px;
+  width:60px;
+  height:50px;
   
 }
 
@@ -107,7 +107,9 @@ header .navbar {
   display: flex;
 }
 .navbar .nav-menu .nav-link {
-  padding: 10px 18px;
+  padding: 10px 10px 0 0;
+  padding-top: 0;
+  padding-bottom: 0;
   color: var(--white-color);
   font-size: var(--font-size-m);
   border-radius: var(--border-radius-m);

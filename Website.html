@@ -1,232 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="mystyle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="website.css">
+  <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <label>
-               <img src="images/logo.png" alt="">
-            </label>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Rooms & Suites</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Event Venue</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Blogs</a></li>
-                <li><a href="">Book Now</a></li>
-            </ul>
-        </nav>
 
-        <div class="index-banner">
-                <img src="images/Header Image.webp" alt="">
-                <div class="banner-heading">
-                    <div class="banner-body">
-                        <div class="star-icon">
-                            <i fa-solid fa-star></i>
-                            <i fa-solid fa-star></i>
-                            <i fa-solid fa-star></i>
-                            <i fa-solid fa-star></i>
-                            <i fa-solid fa-star></i>
-                        </div>
-                        <h5>By Kunal Jagwani</h5><br>
-                        <h1>India's First jungle theme Resort</h1>
-                    </div>
-                </div>
-        </div>
-    </header>
+  <!-- Header / Navbar -->
+  <header>
 
-    <main>
-        <section id="1">
-            <div class="sec1">
-                <div class="sec1-a">
-                <h5>AAMAGHATI WILDLIFE RESORT</h5>
-                <h2>Enjoy a Luxury Experience</h2>
-                <p>AamaGhati Wildlife Resort is situated Sawai Madhopur and it is closest to Ranthambore National park entry gates. With a variety of comfortable accommodations and exciting activities, there's something for everyone at our resort. Our guest rooms are designed with the tribal surroundings in mind, featuring unique jungle-themed design with everything in the resort has a significant to what's inside the Ranthambore National Park Step outside your room and you'll be immersed in the beauty of the Ranthambore forest and Aravalli range view.
+    <nav class="navbar">
+      <a href="#" class="nav-logo">
+        <h2 class="logo-text">
+          <img src="https://pngfre.com/wp-content/uploads/Coffee-2.png" alt="logo" class="logo-img">
+        </h2>
+      </a>
 
-                    In addition to our comfortable accommodations, we offer a range of activities for our guests to enjoy. From traditional folk performance to to delicious live interactive kitchens, there's no shortage of ways to explore and experience the natural beauty of the jungle.
-                    
-                    We're committed to sustainability and conservation, and strive to minimize our impact on the environment. Our resort is powered by renewable energy sources, and we work closely with local organizations to protect and preserve the natural habitats of the animals that call the Ranthambore National park home</p>
+      <ul class="nav-menu">
+        <button id="menu-close-button" class="fas fa-times"></button>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu" class="nav-link">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a href="#testimonials" class="nav-link">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a href="#gallery" class="nav-link">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+      <button id="menu-open-button" class="fas fa-bars"></button>
+    </nav>
+  </header>
+  
 
-                    <div class="contact">
-                        <div class="contact-icon">
-                            <i class="fa-solid fa-phone"></i>
-                        </div>
-                        <div class="contact-number">
-                            <p>Reservation</p>
-                            <h4>+91 844 0888 111</h4>
-                            <h4>+91 746 2294 200</h4>
-                        </div>
-                    </div>
-                </div>
-            <div class="sec1-b">
-                <img src="images/Section 1 img.webp" alt="">
-            </div>
-            <div class="sec1-c">
-                <img src="images/Section 2 img2.webp" alt="">
-            </div>
-        </div>
-        </section>
+    <!-- Hero section -->
+<main>
+    <section class="hero-section">
+      <div class="section-content">
+        <div class="hero-details">
+          <h2 class="title">Best Coffee</h2>
+          <h3 class="subtitle">Make your day great with our special coffee!</h3>
+          <p class="description">Welcome to our coffee paradise, where every bean tells a story and every cup sparks
+            joy.</p>
 
-            <section class="2">
-             <div class="boxi">
-                <h5>AAmaghati Whildlife Resort</h5>
-                <h2>Rooms & Suites</h2>
-                <div class="setbox-images">
-                    <div class="setbox-images-item">
-                        <img src="images/Rooms img.webp" alt="">
-                        <h4>Evoke Room <span class="Details">Details</span></h4>
-            </div>
-
-                    <div class="setbox-images-item">
-                        <img src="images/Room img2.avif" alt="">
-                    <h4>Book Evoke Room <span class="Details">Details</span></h4>
-            </div>
-
-                    <div class="setbox-images-item">
-                        <img src="images/Room img3.webp" alt="">
-                        <h4>Book Evoke Room <span class="Details">Details</span></h4>
-               </div>
-            </div>
-        </div>
-    </section>
-              <section class="3">
-                 <div class="hotel-facilities">
-                    <h5>Our Services</h5>
-                    <h2>Hotel Facilities</h2>
-                    <div class="facilities-icon">
-                        <div class="sicon-item">
-                            <i class="fa-solid fa-car"></i> 
-                        <h3>Pick up & Drop</h3>
-                    </div>
- 
-                    <div class="sicon-item">
-                        <i class="fa-solid fa-square-parking"></i>
-                        <h3>Parking Space</h3>
-                    </div>
- 
-                    <div class="sicon-item">
-                        <i class="fa-solid fa-bed"></i>
-                        <h3>Room Service</h3>
-                    </div>
-                 </div>
-
-                 <div class="facilities-icon">
-                    <div class="sicon-item">
-                        <i class="fa-solid fa-water-ladder"></i>
-                    <h3>Swimming pool</h3>
-                </div>
-
-                <div class="sicon-item">
-                    <i class="fa-solid fa-wifi"></i>
-                    <h3>Fibre Internet</h3>
-                </div>
-
-                <div class="sicon-item">
-                    <i class="fa-solid fa-burger"></i>
-                    <h3>Breakfast</h3>
-                </div>
-            </div>
-        
-        </section> 
-
-                <section class="4">
-                    <div class="client-review">
-                        <div class="guest-review">
-                            <h4>Testimonials</h4>
-                            <h2>What Client's Say</h2>
-                            <p>The overall experience and stay was absolutely great! It was a great decision to stay here and ring in the new years at this property.
-Right from the F&amp;B team to the housekeeping team and the management, everything was simply splendid. Shivam, Ritu, Sonia and Karamsingh did a great job of cooking and serving us great food! The f&amp;b staff was very courteous and warm.
-Rinkesh who was the housekeeping supervisor ensured we got everything we needed. He is one of those very few who would go out of their way to make one’s stay memorable.
-The overall management that included Ms. Reshma and Mr. Sanjay have done the most amazing job of managing such a beautiful and huge property so efficiently. They clearly lead by example which reflects in the entire team.
-Im sure Aamaghati Wildlife Resort would become our go to for Ranthambore going forward!</p>
-                        </div>
-                    </div>
-                </section>       
-
-
-                <section  class="5" >
-                       <div class="box">
-                        <div class="box1">
-                            <img src="images/a3.jpg" alt="">
-                        </div>
-                        <div class="box2">
-                            <div>
-                                <h5>MULTICUISINE RESTAURANT</h5>
-                                <h2>Baradari</h2>
-                                <p>Baradari offers a diverse menu with something for everyone. This can be particularly appealing for people who are dining with a group of people with different tastes or dietary preferences.</p>
-                            </div>
-                        </div>
-                       </div>
-                       <div class="box">
-                        <div class="box1">
-                            <div>
-                                <h5>Experiences</h5>
-                                <h2>Sri Sri Wellbeing Centre</h2>
-                                <p>The Sri Sri Wellbeing Centre at Aamaghati Resort has a complete range of exclusive relaxation therapies which will rejuvenate you, making you feel like a whole new person. Our therapies are designed to rest your senses, relax your muscles and restore your vitality.</p>
-                            </div>
-                            
-                        </div>
-                        <div class="box2">
-                            <img src="images/Well Being2.avif" alt="">
-                        </div>
-                       </div>
-                       <div class="box">
-                        <div class="box1">
-                            <img src="images/Ev img.webp" alt="">
-                        </div>
-                        <div class="box2">
-                            <div>
-                                <h5>Modern</h5>
-                                <h2>EV Stations</h2>
-                                <p>Experience the EV Stations for your electric vehicle at Aamaghati Wildlife Resort. From the stunning venue to the personalized touches, we will make your special day truly unforgettable.</p>
-                            </div>
-                        </div>
-                       </div>
-                       <div class="box">
-                        <div class="box1">
-                            <div>
-                                <h5>Experiences</h5>
-                                <h2>Pool</h2>
-                                <p>Enjoy the endless views from the infinity pool. The perfect spot to soak up the sun and the scenery.</p>
-                            </div>
-                            
-                        </div>
-                        <div class="box2">
-                            <img src="images/pool img.webp" alt="">
-                        </div>  
-                       </div>
-                </section>
-    </main>
-    <footer>
-        <div class="setfooter">
-                <div class="footer-item">
-                    <h4>About Hotel</h4>
-                    <p>Aamaghati Wildlife Resort is the perfect place to stay for a luxury safari experience in Ranthambore National park. We have luxurious amenities and a jungle theme, making it the perfect spot to spend a day in nature.</p>
-                </div>
-
-                <div class="footer-item">
-                    <h4>Contact</h4>
-                    <p>Aamaghati Wildlife Resort at Udaipur (Raj)</p>
-                    <h3><i class="fa-solid fa-phone"></i>+91 9079764236</h3>
-                    <h3>For Reservation - kunal73729@gmail.com</h3>
-                </div>
-         <div class="maps">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116078.16872071792!2d73.62246998958724!3d24.60841984558027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e56550a14411%3A0xdbd8c28455b868b0!2sUdaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1753603904574!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="buttons">
+            <a href="#Order" class="button order-now">Order Now</a>
+            <a href="#contact" class="button contact-us">Contact Us</a>
           </div>
         </div>
-            <div class="bottom-footer">
-                <h6>© Copyright 2024 Aamaghati Wildlife Resort By Kunal Jagwani</h6>
-            </div>
+        <div class="hero-image-wrapper">
+          <img src="images/coffee-hero-section.png" alt="" class="hero-image">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- About section -->
+   
+  <section class="about-section" id="about">
+    <div class="section-content">
+        <div class="about-image-wrapper">
+            <img src="images/about-image.jpg" alt="About" class="about-image">
+        </div>
+        <div class="about-details">
+            <h2 class="section-title">About Us</h2>
+            <p class="text">At Coffee House in Berndoof, Germany , We Pride Ourselves on Being a Go-to Destination For Coffee Lovers And Conversation Seekers Alike. We're Dedicated To Providing an exceptional coffee Experience in a cozy and inviting atmosphere, where guest can relax unwind and enjoy their tine in comfort.</p>
+            <div class="social-link-list">
+                <a href="#" class="social-link" ><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social-link" ><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-link" ><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" class="social-link" ><i class="fa-brands fa-youtube"></i></a>
                 
-    
-    </footer>
-    </body>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Menu Section  -->
+
+   <section class="menu-section" id="menu">
+    <h2 class="section-title">Our Menu</h2>
+    <div class="section-content">
+      <ul class="menu-list">
+        <li class="menu-item">
+          <img src="images/hot-beverages.png" alt="Hot Beverages" class="menu-image">
+          <div class="menu-details">
+            <h3 class="name">Hot Beverages</h3>
+            <p class="name">Wide Range of steaming hot Coffee to make you fresh and light</p>
+          </div>
+        </li>
+        <li class="menu-item">
+          <img src="images/cold-beverages.png" alt="Hot Beverages" class="menu-image">
+          <div class="menu-details">
+            <h3 class="name">Cold Beverages</h3>
+            <p class="name">Creamy and Fronthy Cold Coffee to make you cool</p>
+          </div>
+        </li>
+        <li class="menu-item">
+          <img src="images/refreshment.png" alt="Hot Beverages" class="menu-image">
+          <div class="menu-details">
+            <h3 class="name">Refreshment</h3>
+            <p class="name">Fruit and icy Refreshing drink to make feel refresh</p>
+          </div>
+        </li>
+        <li class="menu-item">
+          <img src="images/special-combo.png" alt="Hot Beverages" class="menu-image">
+          <div class="menu-details">
+            <h3 class="name">Special Combos</h3>
+            <p class="name">Your Favorite eating and drinking combinations</p>
+          </div>
+        </li>
+        <li class="menu-item">
+          <img src="images/desserts.png" alt="Hot Beverages" class="menu-image">
+          <div class="menu-details">
+            <h3 class="name">Dessert</h3>
+            <p class="name">Satiate your palate and take you on a cultinary treat</p>
+          </div>
+        </li>
+        <li class="menu-item">
+          <img src="images/burger-frenchfries.png" alt="Hot Beverages" class="menu-image">
+          <div class="menu-details">
+            <h3 class="name">Burger & French Fries</h3>
+            <p class="name">Quick Bites to Satiscy Your Small Size Hunger</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+   </section>
+
+   <!-- Testimonials Section -->
+
+   <section class="testimonials-section " id="testimonials">
+    <h2 class="section-title">Testimonials</h2>
+    <div class="section-content">"
+      <div class="slider-container swiper">
+        <div class="slider-wrapper">
+          <ul class="testomonials-list swiper-wrapper">
+
+            <li class="testimonial swiper-slide">
+              <img src="images/user-1.jpg" alt="User" class="user-image"/>
+              <h3 class="name">Sarah johnson</h3>
+              <i class="feedback">"Loved the French roast. perfectly balanced and rich. Will Order Again!"</i>
+            </li>
+
+            <li class="testimonial swiper-slide">
+              <img src="images/user-2.jpg" alt="User" class="user-image"/>
+              <h3 class="name" >james Wilson</h3>
+              <i class="feedback">"Great espresso blend! Smooth and Bold Flavour. Fast Shipping tool" </i>
+            </li>
+
+            <li class="testimonial swiper-slide">
+              <img src="images/user-3.jpg" alt="User" class="user-image"/>
+              <h3 class="name" >Micheal Brown</h3>
+              <i class="feedback">"Fantastic mocha Flavour. Fresh and romantic. Quick Shipping!" </i>
+            </li>
+
+            <li class="testimonial swiper-slide">
+              <img src="images/user-4.jpg" alt="User" class="user-image"/>
+              <h3 class="name" >Emily Harris</h3>
+              <i class="feedback">"Excellent Quality! Fresh Beans and Quick Delivery. Highly Recommended." </i>
+            </li>
+
+            <li class="testimonial swiper-slide">
+              <img src="images/user-5.jpg" alt="User" class="user-image"/>
+              <h3 class="name" >Anthony Thompson</h3>
+              <i class="feedback">"Best Decaf I've Tried! Smooth and Flavourful. Arrived Promptly" </i>
+            </li>
+
+          </ul>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-slide-button swiper-button-prev" ></div>
+          <div class="swiper-slide-button swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <!-- Gallery Section -->
+
+   <section class="gallery-section" id="gallery">
+    <h2 class="section-title">Gallery</h2>
+    <div class="section-content">
+      <ul class="gallery-list">
+        <li class="gallery-item">
+          <img src="images/gallery-1.jpg" alt="" class="gallery-image">
+        </li>
+
+        <li class="gallery-item">
+          <img src="images/gallery-2.jpg" alt="" class="gallery-image">
+        </li>
+
+        <li class="gallery-item">
+          <img src="images/gallery-3.jpg" alt="" class="gallery-image">
+        </li>
+
+        <li class="gallery-item">
+          <img src="images/gallery-4.jpg" alt="" class="gallery-image">
+        </li>
+
+        <li class="gallery-item">
+          <img src="images/gallery-5.jpg" alt="" class="gallery-image">
+        </li>
+
+        <li class="gallery-item">
+          <img src="images/gallery-6.jpg" alt="" class="gallery-image">
+        </li>
+      </ul>
+      
+    </div>
+  </section>
+
+  <!------ contact Section ---------->
+
+  <section class="contact-section" id="contact">
+    <h2 class="section-title">Contact Us</h2>
+      <div class="section-content">
+        <ul class="contact-info-list">
+
+          <li class="contact-info">
+            <i class="fa-solid fa-location-crosshairs"></i>
+            <p> Udaipur</p>
+          </li>
+
+          <li class="contact-info">
+            <i class="fa-regular fa-envelope"></i>
+            <p>kunal73729@gmail.com</p>
+          </li>
+
+          <li class="contact-info">
+            <i class="fa-solid fa-phone"></i>
+            <p>+91 9079764236</p>
+          </li>
+
+          <li class="contact-info">
+            <i class="fa-regular fa-clock"></i>
+            <p>Monday - Friday : 9:00 AM - 5:00 PM </p>
+          </li>
+
+          <li class="contact-info">
+            <i class="fa-regular fa-clock"></i>
+            <p>Saturday And Sunday : Closed</p>
+          </li>
+
+  
+        </ul>
+        <form action="#" class="contact-form">
+          <input type="text" placeholder="Your name" class="form-input" required/>
+          <input type="text" placeholder="Your email" class="form-input" required/>
+          <textarea name="" placeholder="Your Message" class="form-input" required></textarea>
+          <button type="submit" class="button submit-button">Submit</button>
+        </form>
+        <div class="maps">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116078.16872071792!2d73.62246998958724!3d24.60841984558027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e56550a14411%3A0xdbd8c28455b868b0!2sUdaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1753603904574!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+       </div>
+
+      </div>
+  </section>
+
+  <!-- Footer Section -->
+   <footer class="footer-section">
+    <div class="section-content">
+      
+      <div class="social-link-list">
+        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" class="social-link"><i class="fa-brands fa-youtube"></i></a>
+
+      </div>
+      <p class="policy-text">
+        <span class="separator">
+          <a href="#" class="policy-link">Terms And Conditions</a>
+          <a href="#" class="policy-link">© Copyright 2025 Kunal's Coffee</a>
+          <a href="#" class="policy-link">Privacy Policy</a>
+          <a href="#" class="policy-link">Refund Policy</a>
+        </span>
+
+    </div>
+   </footer>
+  <script src="coffee.js"></script>
+</body>
 </html>

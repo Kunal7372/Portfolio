@@ -19,6 +19,7 @@
   --secondary-color: #f3961c;
   --sky-Blue-color: skyblue;
   --navy-color:Navy;
+  --green-color: green;
   --light-pink-color: #faf4f5;
   --medium-gray-color: #eff3e1;
   /* Font size */
@@ -395,10 +396,13 @@ border: 3px solid #20996f; /* Optional: adds a border */
 }
 /* projects Section */
 
-
+.project-section{
+  padding: 10px 0 30px;
+  background: var(--white-color);
+}
 .project-section .slider-wrapper{
   overflow: hidden;
-  margin: 0 60px 50px;
+  margin: 0 5px 5px;
 }
 .project-section .project{
   padding: 5px;
@@ -416,7 +420,7 @@ border: 3px solid #20996f; /* Optional: adds a border */
   border-radius: var(--border-radius-circle);
 }
 .project-section .project .name{
-  margin-bottom:10px;
+  margin-bottom:5px;
   font-size: var(--font-size-m);
 }
 .project-section .project .feedback{
@@ -424,10 +428,10 @@ border: 3px solid #20996f; /* Optional: adds a border */
 
 }
 .project-section .swiper-pagination-bullet{
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   opacity: 1;
-  background: var(--secondary-color);
+  background: var(--green-color);
 }
 .project-section .swiper-slide-button{
   color: var(--black-color);

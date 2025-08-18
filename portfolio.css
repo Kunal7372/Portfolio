@@ -340,11 +340,9 @@ border: 3px solid #20996f; /* Optional: adds a border */
     .html { width: 95%; }
     .css { width: 90%; }
     .js { width: 85%; }
-    .react { width: 80%; }
-    .mysql { width: 90%; }
-    .dotnet { width: 85%; }
-    .python{width: 90%; }
-    .php{width: 75%; }
+    .python { width: 90%; }
+    .django{width: 90%; }
+    .mysql{width: 85%; }
 
 
     
